@@ -23,13 +23,13 @@ generation_path = dir_path + '\\generation\\'
 
 baseFile = font_path + 'm.svg' # this is what we're working with
 
-num = 31
+num = 11
 for i in range(1, num):
     figure = svgutils.transform.SVGFigure(width="15.24cm", height ="10.16cm")
     svg = svgutils.transform.fromfile(baseFile).getroot()
-    svg.scale(.15)
+    svg.scale(.10)
     
-    xSkew = -30 + 60/(num-1)*i
+    xSkew = -10 + 20/(num-1)*i
     print('skew: {}'.format(xSkew))
     svg.skew(xSkew, 0)
     # just use the skew...
@@ -56,7 +56,7 @@ figure = svgutils.transform.SVGFigure(width="15.24cm", height ="10.16cm")
 xPos = 0
 yPos = 0 
 scaleFactor = 1
-for i in range(1, 31):
+for i in range(1, 11):
     if i in [11, 21]:
         xPos = 0 
         yPos = yPos + 40

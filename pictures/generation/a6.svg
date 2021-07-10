@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
 <svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-  <g transform="translate(19.495181773974377, 0) scale(1 1) translate(0, 0) scale(0.15 0.15)  skewX(-18.000000)">
+  <g transform="translate(-2.095246169504864, 0) scale(1 1) translate(0, 0) scale(0.15 0.15)  skewX(2.000000)">
     <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
     <filter id="blur">
       <feGaussianBlur stdDeviation="5.0"/>

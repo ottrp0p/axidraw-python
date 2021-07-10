@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(0.34906978865732075, 0) scale(1 1) translate(0.5817946504483253, 0) scale(1 1) translate(0.814537017743164, 0) scale(1 1) translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000) skewX(-0.777778) skewX(-0.555556) skewX(-0.333333)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1625351537934" transform="matrix(1,0,0,1,-1.316833,-1.489594)" style="opacity:1.0">
+      <g id="1625348338071" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 144.31683 54.489594 L 143.31683 54.489594 L 142.31683 54.489594 L 142.31683 55.489594 L 142.31683 57.489594 L 141.31683 59.489594 L 139.31683 64.48959 L 136.31683 71.48959 L 132.31683 81.48959 L 127.31683 95.48959 L 121.31683 108.48959 L 116.31683 121.48959 L 109.31683 136.4896 L 100.31683 152.4896 L 93.31683 166.4896 L 85.31683 178.4896 L 77.31683 191.4896 L 71.31683 202.4896 L 63.316833 210.4896 L 57.316833 217.4896 L 52.316833 223.4896 L 48.316833 227.4896 L 45.316833 230.4896 L 43.316833 232.4896 L 42.316833 234.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 41.316833 74.48959 L 41.316833 73.48959 L 41.316833 72.48959 L 41.316833 71.48959 L 42.316833 74.48959 L 43.316833 79.48959 L 48.316833 89.48959 L 55.316833 104.48959 L 63.316833 122.48959 L 73.31683 144.4896 L 82.31683 162.4896 L 90.31683 176.4896 L 97.31683 187.4896 L 103.31683 196.4896 L 109.31683 204.4896 L 114.31683 210.4896 L 118.31683 217.4896 L 122.31683 222.4896 L 126.31683 227.4896 L 130.31683 231.4896 L 134.31683 234.4896 L 137.31683 236.4896 L 140.31683 238.4896 L 142.31683 238.4896 L 145.31683 237.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

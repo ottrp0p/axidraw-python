@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1625349957377" transform="matrix(1,0,0,1,-1.316833,-1.489594)" style="opacity:1.0">
+      <g id="1625348338071" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 70.31683 34.489594 L 67.31683 35.489594 L 67.31683 36.489594 L 66.31683 38.489594 L 66.31683 41.489594 L 64.31683 47.489594 L 62.316833 56.489594 L 60.316833 67.48959 L 58.316833 82.48959 L 56.316833 102.48959 L 54.316833 119.48959 L 52.316833 135.4896 L 51.316833 153.4896 L 50.316833 167.4896 L 49.316833 178.4896 L 48.316833 189.4896 L 48.316833 199.4896 L 47.316833 206.4896 L 47.316833 212.4896 L 47.316833 217.4896 L 47.316833 219.4896 L 47.316833 221.4896 L 47.316833 222.4896 L 48.316833 222.4896 L 48.316833 221.4896 L 48.316833 220.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 127.31683 39.489594 L 126.31683 39.489594 L 126.31683 40.489594 L 125.31683 40.489594 L 125.31683 41.489594 L 124.31683 43.489594 L 124.31683 44.489594 L 123.31683 47.489594 L 123.31683 52.489594 L 122.31683 58.489594 L 121.31683 68.48959 L 120.31683 80.48959 L 118.31683 94.48959 L 116.31683 110.48959 L 115.31683 125.48959 L 114.31683 140.4896 L 113.31683 155.4896 L 113.31683 168.4896 L 113.31683 179.4896 L 113.31683 189.4896 L 113.31683 199.4896 L 113.31683 207.4896 L 113.31683 215.4896 L 113.31683 221.4896 L 113.31683 227.4896 L 113.31683 231.4896 L 113.31683 234.4896 L 113.31683 235.4896 L 113.31683 237.4896 L 113.31683 236.4896 L 113.31683 235.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 68.31683 151.4896 L 70.31683 150.4896 L 74.31683 149.4896 L 83.31683 148.4896 L 93.31683 147.4896 L 105.31683 145.4896 L 115.31683 145.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>
