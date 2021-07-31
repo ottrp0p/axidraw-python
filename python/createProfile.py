@@ -18,6 +18,8 @@ import random
 import math 
 
 import fixedLists # code for fixed lists of char/paths for project 
+import spacingHandler
+
 
 def createProfile(profile):
     # going two levels up, past Python
@@ -44,7 +46,11 @@ def createProfile(profile):
         for path in folderList :
             os.mkdir(profileDir + '\\' + profile + '\\' + 'Originals' + '\\' + path) 
         print('created all new subfolders in Originals')
-        
+        spacingHandler.loadSpacings(profile)
+        print('initalized Spacings')
+    
+        spacingHandler.loadAddress(profile)
+        print('intialized profile')
         
     else: 
         print('profile already exists')
@@ -57,12 +63,20 @@ def createProfile(profile):
                 os.mkdir(profileDir + '\\' + profile + '\\' + 'Originals' + '\\' + path)  
         print('all subfolders checked. all missing subfolders created')
         
+        spacingHandler.loadSpacings(profile)
+        print('initalized Spacings')
+    
+        spacingHandler.loadAddress(profile)
+        print('intialized profile')
+        
     
     print('please populate the folders with the necessary original SVGs')
 
 def profileProfile(profile):
     # bad naming. To profile the a given profile 
     # by deriving OG source counts. 
+    
+    taskReady = True
     
     # going two levels up, past Python
     masterDir = Path(__file__).parents[1]
@@ -74,9 +88,12 @@ def profileProfile(profile):
         if os.path.isdir(profileDir +'\\' + folder ):
             print('{} folder exists'.format(folder))
             print('{} source files'.format(len(os.listdir(profileDir +'\\' + folder))))
+            if len(os.listdir(profileDir +'\\' + folder)) == 0 : 
+                   taskReady = False
         else:
             print('ERROR, {} does not exist'.format(folder))
-            
+            taskReady = False
+    return taskReady
         
     
     

@@ -76,7 +76,8 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
         
     # build the spacing dict
     spacingDict = spacingHandler.loadSpacings(profile)
-    print(spacingDict)
+    # print('spacingDict: ')
+    # print(spacingDict)
     
     # folder list gen
     folderList = fixedLists.folderList()
@@ -110,8 +111,8 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
             else: 
                 xPos = xPos + 8 + random.randint(-20, 0)/20  ##### ADD NOISE HERE #####
         
-        xPos = xStart
-        yPos = yPos + 27 + random.randint(-20, 0)/20    # new line  ###### ADD NOISE HERE ####
+        xPos = xStart + random.randint(-20, 20)/10
+        yPos = yPos + 30 + random.randint(-20, 0)/20    # new line  ###### ADD NOISE HERE ####
     figure.save('printTemp.svg')
     addDim('printTemp.svg', letter)  
     ad.plot_setup('printTemp.svg')

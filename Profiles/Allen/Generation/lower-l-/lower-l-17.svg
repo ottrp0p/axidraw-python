@@ -6,9 +6,9 @@
       <feGaussianBlur stdDeviation="5.0"/>
     </filter>
     <defs/>
-    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1625348960642" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1626134333811" transform="matrix(1,0,0,1,-7.316833,10.510406)" style="opacity:1.0">
       <g id="1625348338071" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
-        <path transform="matrix(1,0,0,1,0,0)" d="M 48.0 36.0 L 47.0 38.0 L 47.0 39.0 L 47.0 42.0 L 46.0 47.0 L 45.0 54.0 L 44.0 68.0 L 43.0 91.0 L 41.0 114.0 L 40.0 131.0 L 40.0 150.0 L 39.0 163.0 L 38.0 175.0 L 36.0 185.0 L 36.0 194.0 L 36.0 202.0 L 36.0 208.0 L 38.0 212.0" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 59.316833 45.489594 L 59.316833 47.489594 L 59.316833 51.489594 L 58.316833 58.489594 L 57.316833 71.48959 L 54.316833 94.48959 L 51.316833 121.48959 L 49.316833 146.4896 L 47.316833 164.4896 L 46.316833 183.4896 L 44.316833 197.4896 L 41.316833 209.4896 L 41.316833 217.4896 L 45.316833 222.4896" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
       </g>
     </g>
   </g>
