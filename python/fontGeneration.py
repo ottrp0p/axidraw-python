@@ -21,6 +21,7 @@ import string
 import random
 import math 
 
+from delimSys import *
 import fixedLists # code for fixed lists of char/paths for project 
 
 from addDim import * # this is custom code desgined to add dim headers
@@ -31,7 +32,7 @@ def proliferate(profileName):
     masterDir = Path(__file__).parents[1]
     
     # get into Profiles 
-    profileDir = str(masterDir) + '\\Profiles\\' + profileName 
+    profileDir = str(masterDir) + delim + 'Profiles' + delim + profileName 
     
     # check if it's valid
     if os.path.isdir(profileDir) == False: 
@@ -40,8 +41,8 @@ def proliferate(profileName):
         return None 
     print('Confirmed: profile exists')
     
-    originalsDir = profileDir + '\\Originals' 
-    generationDir = profileDir + '\\Generation'
+    originalsDir = profileDir + delim + 'Originals' 
+    generationDir = profileDir +  delim + 'Generation'
     
     folderList = fixedLists.folderList()
     
@@ -55,10 +56,10 @@ def proliferate(profileName):
 
         
     for path in folderList:
-        if os.path.isdir(originalsDir + '\\' + path) == False: 
+        if os.path.isdir(originalsDir + delim + path) == False: 
             print('Error, missing originals subfolder: {}'.format(path))
             return None
-        if len(os.listdir(originalsDir + '\\' + path)) == 0: 
+        if len(os.listdir(originalsDir + delim + path)) == 0: 
             print('Error, empty originals subfolder: {}'.format(path))
     print('Confirmed: originals subfolders exist and are nonempty') 
     
@@ -68,56 +69,63 @@ def proliferate(profileName):
         os.mkdir(generationDir)
     
     for path in folderList :
-        if os.path.isdir(generationDir + '\\' + path) == False: 
-            os.mkdir(generationDir + '\\' + path)
+        if os.path.isdir(generationDir + delim + path) == False: 
+            os.mkdir(generationDir + delim + path)
             
     print('Confirmed: generation folders exist') 
     
     # proceed to the main loop. 
     # for each path, OG -> gen run the shear loop
     for path in folderList: 
-        OGPath = originalsDir + '\\' + path
-        GenPath = generationDir + '\\' + path
+        OGPath = originalsDir + delim + path
+        GenPath = generationDir + delim + path
         
         svgFiles = os.listdir(OGPath)
         counter = 0 
         shearNum = 10 
         
         for file in svgFiles: 
-            # generically just use postcard dims 
-            figure = svgutils.transform.SVGFigure(width="15.24cm", height ="10.16cm")
-            svg = svgutils.transform.fromfile(OGPath + '\\' + file).getroot()
-            print('got file: {}'.format(OGPath + '\\' + file))
-            svg.scale(.10) # THIS MEANS YOU DO NOT NEED TO SCALE IN LATER STEPS
-            for i in range(0, shearNum):
-                # generically just use postcard dims 
+            # generically just use postcard dims
+            
+            ### ADD CODE TO IGNORE ANY FILE THAT IS NOT SVG 
+            
+            
+            try: 
+                figure = svgutils.transform.SVGFigure(width="15.24cm", height ="10.16cm")
+                svg = svgutils.transform.fromfile(OGPath + delim + file).getroot()
+                print('got file: {}'.format(OGPath + delim + file))
+                svg.scale(.10) # THIS MEANS YOU DO NOT NEED TO SCALE IN LATER STEPS
+                for i in range(0, shearNum):
+                    # generically just use postcard dims 
+                    
+                    xSkew = -1 + 2/(shearNum-1)*i
+                    # print('skew: {}'.format(xSkew))
+                    svg.skew(xSkew, 0)
+                    # just use the skew...
+                    # we just need to guess the heigh value to the median of the letter 
+                    # more or less
                 
-                xSkew = -1 + 2/(shearNum-1)*i
-                # print('skew: {}'.format(xSkew))
-                svg.skew(xSkew, 0)
-                # just use the skew...
-                # we just need to guess the heigh value to the median of the letter 
-                # more or less
-            
-                pixelVal = 60*math.tan(xSkew/360*2*math.pi) 
-                # original magic # is 60 pixels
-                if xSkew <= 0: 
-                    pixelVal =abs(pixelVal)
-                else: 
-                    pixelVal = -abs(pixelVal)
-            
-                svg.moveto(pixelVal, 0)
-                # 10/(num-1)*i seems to work for height? 
-                # svg.scale(random.random()*.03 + .97)
-                # svg.rotate(random.random()*5-10)
-                figure.append(svg)
-                figure.save(GenPath + '\\' + path + str(counter) + '.svg')
-                print('saved file: {}'.format(GenPath + '\\' +  path + str(counter) + '.svg'))
-                addDim(GenPath + '\\' + path + str(counter) + '.svg') # add header dims
-                counter +=1 
-            
+                    pixelVal = 60*math.tan(xSkew/360*2*math.pi) 
+                    # original magic # is 60 pixels
+                    if xSkew <= 0: 
+                        pixelVal =abs(pixelVal)
+                    else: 
+                        pixelVal = -abs(pixelVal)
+                
+                    svg.moveto(pixelVal, 0)
+                    # 10/(num-1)*i seems to work for height? 
+                    # svg.scale(random.random()*.03 + .97)
+                    # svg.rotate(random.random()*5-10)
+                    figure.append(svg)
+                    figure.save(GenPath + delim + path + str(counter) + '.svg')
+                    print('saved file: {}'.format(GenPath + delim +  path + str(counter) + '.svg'))
+                    addDim(GenPath + delim + path + str(counter) + '.svg') # add header dims
+                    counter +=1 
+            except: 
+                print('error occured at {}'.format(file))
+                
 
-proliferate('Allen')
+proliferate('Zain')
 
 
         

@@ -31,7 +31,7 @@ from addDim import *
 import fixedLists # code for fixed lists of char/paths for project 
 import createProfile # code for accessing, modifying profiles 
 import spacingHandler # code for profile spacing load and write 
-
+from delimSys import *
 
 def writeSVG(xStart, yStart, letter, profile, lineList):
     
@@ -66,12 +66,12 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
 
     # build some directories
     masterDir = Path(__file__).parents[1]    
-    profileDir = str(masterDir) + '\\Profiles' + '\\' + profile 
+    profileDir = str(masterDir) + delim + 'Profiles' + delim + profile 
     if os.path.isdir(profileDir) == False: 
         print('Profile does not exist')
         return None 
     
-    GenDir = profileDir + '\\' + 'Generation'
+    GenDir = profileDir + delim + 'Generation'
     
         
     # build the spacing dict
@@ -95,7 +95,7 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
         for char in charList: 
             # check if exist?
             if char in spacingDict:
-                charDir = GenDir + '\\' + charMap[char] + '-' + char + '-'
+                charDir = GenDir + delim + charMap[char] + '-' + char + '-'
                 if os.path.isdir(charDir):
                     fileList = os.listdir(charDir)
                     if len(fileList) == 0: 
@@ -103,7 +103,7 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
                         return None 
                     # supposing we do have files, get the list of files. random into one of them
                     charFileList = os.listdir(charDir)
-                    charPath = charDir + '\\' + charFileList[random.randint(0, len(charFileList)-1)]
+                    charPath = charDir + delim + charFileList[random.randint(0, len(charFileList)-1)]
                     svg = svgutils.transform.fromfile(charPath).getroot()
                     svg.moveto(xPos + random.randint(-20, 0)/40, yPos + random.randint(-20, 20)/40, scaleFactor)
                     figure.append(svg)
@@ -123,10 +123,38 @@ def writeSVG(xStart, yStart, letter, profile, lineList):
     ad.options.pen_rate_raise = 100
     ad.plot_run()
                 
+# tempDict = spacingHandler.loadSpacings('Zain')
+# print(tempDict)
 
-    
-# spacingHandler.changeSpacings('Allen', changes)
-# writeSVG(0, 0, 'Paper', 'Allen', 
+# changes = {'e': 12, 
+#            'w' : 13, 
+#            'f': 10, 
+#            'n': 10, 
+#            'u': 10,
+#            'q': 9, 
+#            'i': 7, 
+#            'r': 9, 
+#            'l': 7, 
+#            't': 7, 
+#            'm': 12,
+#            'o': 10, 
+#            'v': 9, 
+#            'g': 11, 
+#            'a': 12, 
+#            'k': 10, 
+#            '0': 12, 
+#            '1': 11, 
+#            '2': 14, 
+#            '3': 12, 
+#            '6': 12, 
+#            '7': 13, 
+#            '5': 12,
+#            'J': 14}
+           
+           
+
+# spacingHandler.changeSpacings('Zain', changes)
+# writeSVG(0, 0, 'Paper', 'Zain', 
 #           ['quick brown fox jumped over the lazy dog', 
 #           'quick brown fox jumped over the lazy dog',
 #           'quick brown fox jumped over the lazy dog', 

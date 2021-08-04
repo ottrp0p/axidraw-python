@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627854516060" transform="matrix(1.041329,0,0,1.041329,-16.413086,-15.68722)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 81.06282 83.2467 L 79.1422 84.20701 L 79.1422 85.16732 L 78.181885 87.087944 L 78.181885 90.929184 L 78.181885 97.65137 L 77.22157 107.25448 L 76.26126 119.73852 L 75.30095 138.94473 L 74.340645 156.23033 L 73.38033 174.47624 L 72.42002 189.84122 L 71.45971 202.32526 L 70.4994 212.88869 L 69.539085 219.61086 L 68.57877 225.37273 L 68.57877 229.21397 L 67.61846 230.17429 L 66.65815 230.17429 L 65.697845 230.17429 L 64.73753 230.17429 L 63.77722 230.17429" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 84.90406 87.087944 L 82.98344 89.00857 L 83.94375 92.84981 L 86.824684 98.61167 L 89.70562 107.25448 L 94.50717 118.778206 L 99.30872 132.22256 L 105.070595 145.66692 L 109.87215 157.19064 L 114.673706 167.75406 L 118.514946 177.35718 L 122.35619 185.99997 L 125.23713 193.68246 L 128.11806 201.36494 L 130.999 206.1665 L 132.91962 210.00775 L 134.84024 212.88869 L 135.80055 214.80931 L 136.76086 215.76962 L 137.72118 216.72993 L 138.68149 215.76962 L 138.68149 214.80931 L 138.68149 213.849 L 139.6418 211.92838 L 139.6418 209.04744 L 139.6418 205.20619 L 139.6418 198.48402 L 140.60211 187.9206 L 140.60211 172.55562 L 139.6418 155.27002 L 139.6418 134.14317 L 139.6418 115.89728 L 139.6418 98.61167 L 138.68149 82.286385 L 137.72118 69.802345 L 138.68149 61.159542 L 138.68149 57.318295 L 139.6418 56.357986 L 140.60211 56.357986 L 140.60211 58.278606 L 144.44336 59.23892" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627851714689" transform="matrix(1.032782,0,0,1.032782,-14.899414,-13.325867)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 793.0 698.0 L 793.0 698.01" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 93.823685 179.44334 L 94.79195 179.44334 L 97.69672 179.44334 L 100.601494 179.44334 L 103.50627 179.44334 L 106.41105 178.4751 L 109.31582 177.50684 L 113.18886 177.50684 L 116.093636 175.57031 L 119.96667 173.6338 L 124.80796 170.72902 L 128.681 167.82425 L 131.58577 163.95122 L 134.49055 161.04643 L 136.42706 157.1734 L 138.36359 153.30037 L 138.36359 149.42734 L 137.39532 146.52255 L 135.4588 142.64952 L 133.5223 140.71301 L 129.64926 138.77649 L 124.80796 137.80824 L 118.998405 138.77649 L 111.25234 140.71301 L 105.44279 144.58604 L 98.66498 151.36385 L 91.88717 160.07819 L 88.01414 171.69728 L 86.077614 185.2529 L 86.077614 196.87201 L 88.98239 207.52284 L 94.79195 216.23718 L 104.474525 223.01498 L 115.125374 225.91975 L 127.71274 226.88802 L 144.17313 224.9515 L 164.50656 221.07846 L 181.93521 216.23718 L 195.49083 210.42763 L 206.14168 206.5546 L 214.856 201.7133" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

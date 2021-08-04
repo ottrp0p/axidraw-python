@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(0.1163554293259576, 0) scale(1 1) translate(0.34906978865732075, 0) scale(1 1) translate(0.5817946504483253, 0) scale(1 1) translate(0.814537017743164, 0) scale(1 1) translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000) skewX(-0.777778) skewX(-0.555556) skewX(-0.333333) skewX(-0.111111)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627854181751" transform="matrix(1.041329,0,0,1.041329,-16.413086,-15.68722)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 66.65815 105.333855 L 65.697845 103.41323 L 64.73753 102.45292 L 64.73753 101.49261 L 64.73753 100.532295 L 64.73753 99.57198 L 63.77722 99.57198 L 63.77722 98.61167 L 63.77722 97.65137 L 63.77722 98.61167 L 63.77722 99.57198 L 63.77722 102.45292 L 63.77722 106.29417 L 63.77722 113.01634 L 63.77722 123.579765 L 62.81691 137.98442 L 61.8566 154.30971 L 60.89629 170.635 L 60.89629 186.96028 L 60.89629 198.48402 L 60.89629 208.08713 L 61.8566 215.76962 L 61.8566 221.53148 L 62.81691 226.33304 L 62.81691 230.17429 L 62.81691 233.05522 L 62.81691 234.97583 L 62.81691 235.93614 L 62.81691 236.89645 L 62.81691 237.85677 L 61.8566 237.85677 L 60.89629 237.85677 L 60.89629 236.89645 L 60.89629 235.93614" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 65.697845 101.49261 L 67.61846 101.49261 L 70.4994 101.49261 L 73.38033 101.49261 L 78.181885 101.49261 L 82.98344 101.49261 L 89.70562 101.49261 L 95.46748 101.49261 L 102.18966 101.49261 L 107.95153 101.49261 L 114.673706 101.49261 L 121.39588 100.532295 L 127.157745 99.57198 L 131.9593 98.61167 L 136.76086 97.65137 L 140.60211 97.65137" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 70.4994 163.91283 L 71.45971 164.87312 L 72.42002 164.87312 L 73.38033 164.87312 L 75.30095 164.87312 L 78.181885 164.87312 L 82.023125 163.91283 L 84.90406 163.91283 L 87.784996 163.91283 L 91.626236 163.91283 L 95.46748 163.91283 L 98.34842 163.91283" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 87.784996 166.79375 L 85.86437 166.79375 L 84.90406 166.79375 L 83.94375 166.79375 L 82.98344 166.79375 L 82.023125 166.79375 L 81.06282 166.79375 L 80.10251 165.83344 L 79.1422 165.83344 L 78.181885 165.83344 L 77.22157 165.83344 L 76.26126 165.83344 L 75.30095 165.83344 L 74.340645 164.87312 L 73.38033 164.87312 L 71.45971 164.87312 L 70.4994 163.91283 L 69.539085 163.91283 L 68.57877 163.91283 L 67.61846 162.95251 L 66.65815 162.95251 L 65.697845 162.95251 L 64.73753 162.95251" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

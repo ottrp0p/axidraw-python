@@ -27,7 +27,7 @@ import fixedLists # code for fixed lists of char/paths for project
 import createProfile # code for accessing, modifying profiles 
 import spacingHandler # code for profile spacing load and write 
 import writeSVG # code for actually writing. 
-
+from delimSys import *
 
 def writePostcard(profile):
     addressDict = spacingHandler.loadAddress(profile)

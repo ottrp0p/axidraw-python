@@ -40,7 +40,7 @@ import fixedLists # code for fixed lists of char/paths for project
 import createProfile # code for accessing, modifying profiles 
 import spacingHandler # code for profile spacing load and write 
 import getChar # code for turning files back into their character via folder 
-
+import delim 
 
 def writeAllOG(xStart, yStart, scaleFactor, profile, letter = 'Index'):
     # takes starting position and set of lines
@@ -84,12 +84,12 @@ def writeAllOG(xStart, yStart, scaleFactor, profile, letter = 'Index'):
 
     # build some directories
     masterDir = Path(__file__).parents[1]    
-    profileDir = str(masterDir) + '\\Profiles' + '\\' + profile 
+    profileDir = str(masterDir) + delim + 'Profiles' + delim + profile 
     if os.path.isdir(profileDir) == False: 
         print('Profile does not exist')
         return None 
     
-    OGDir = profileDir + '\\' + 'Originals'
+    OGDir = profileDir + delim + 'Originals'
     
     # folder list gen
     folderList = fixedLists.folderList()
@@ -107,7 +107,7 @@ def writeAllOG(xStart, yStart, scaleFactor, profile, letter = 'Index'):
         charDir = OGDir + '\\' + folder
         tempFiles = os.listdir(charDir) 
         for file in tempFiles: 
-            OGFileDirList.append(charDir + '\\' + file)
+            OGFileDirList.append(charDir + delim + file)
     
     
     for filePath in OGFileDirList: 

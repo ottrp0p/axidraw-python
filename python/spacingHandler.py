@@ -19,9 +19,9 @@ import random
 import math 
 from pathlib import Path
 
-from addDim import * 
+from delimSys import *
 import fixedLists # code for fixed lists of char/paths for project 
-
+import delimSys 
 
 
 def loadAddress(profile):
@@ -29,8 +29,8 @@ def loadAddress(profile):
     masterDir = Path(__file__).parents[1]
 
     # get into Profiles 
-    profileDir = str(masterDir) + '\\Profiles' +  '\\' + profile  
-    if os.path.exists(profileDir + '\\' + 'address.p') == False:
+    profileDir = str(masterDir) + delim + 'Profiles' +  delim + profile  
+    if os.path.exists(profileDir + delim + 'address.p') == False:
         print('address dict does not exist. initializing')
         firstName = input("Input profile First Name: \n" )
         lastName = input("Input profile Last Name: \n")
@@ -43,11 +43,11 @@ def loadAddress(profile):
                     'address2' : address2, 
                     'emailAddress' : emailAddress 
             }
-        pickle.dump(addressDict, open(profileDir + '\\' + 'address.p', 'wb'))
+        pickle.dump(addressDict, open(profileDir + delim + 'address.p', 'wb'))
         return addressDict
     else: 
         print('address dict exists. loading')
-        pickleFile = open(profileDir + '\\' + 'address.p', 'rb')
+        pickleFile = open(profileDir + delim + 'address.p', 'rb')
         addressDict = pickle.load(pickleFile)
         pickleFile.close()
         return addressDict 
@@ -59,9 +59,9 @@ def loadSpacings(profile):
     masterDir = Path(__file__).parents[1]
 
     # get into Profiles 
-    profileDir = str(masterDir) + '\\Profiles' +  '\\' + profile  
-    if os.path.exists(profileDir + '\\' + 'spacings.p') == True:
-        pickleFile = open(profileDir + '\\' + 'spacings.p', 'rb')
+    profileDir = str(masterDir) + delim + 'Profiles' +  delim + profile  
+    if os.path.exists(profileDir + delim + 'spacings.p') == True:
+        pickleFile = open(profileDir + delim + 'spacings.p', 'rb')
         spacingDict = pickle.load(pickleFile)
         pickleFile.close()
         return spacingDict 
@@ -138,7 +138,7 @@ def loadSpacings(profile):
         ',': 6,
         '.': 6,
         "'": 4}
-        pickle.dump(spacingDict, open(profileDir + '\\' + 'spacings.p', 'wb'))
+        pickle.dump(spacingDict, open(profileDir + delim + 'spacings.p', 'wb'))
 
         return spacingDict 
 
@@ -148,11 +148,11 @@ def changeSpacings(profile, newSpacings):
     masterDir = Path(__file__).parents[1]
 
     # get into Profiles 
-    profileDir = str(masterDir) + '\\Profiles' +  '\\' + profile  
+    profileDir = str(masterDir) + delim + 'Profiles' +  delim + profile  
     spacingDict = loadSpacings(profile)
     for key in newSpacings.keys(): 
         spacingDict[key] = newSpacings[key]
-    pickle.dump(spacingDict, open(profileDir + '\\' + 'spacings.p', 'wb'))
+    pickle.dump(spacingDict, open(profileDir + delim + 'spacings.p', 'wb'))
     
     
 # initDict = loadSpacings('Allen')

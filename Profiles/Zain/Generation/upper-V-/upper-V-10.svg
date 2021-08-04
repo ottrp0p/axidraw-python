@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627854901466" transform="matrix(1.041329,0,0,1.041329,-16.413086,-15.68722)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 67.61846 78.445145 L 67.61846 79.40546 L 67.61846 82.286385 L 68.57877 87.087944 L 69.539085 96.691055 L 70.4994 107.25448 L 72.42002 119.73852 L 74.340645 135.10349 L 76.26126 153.3494 L 78.181885 169.67468 L 80.10251 183.11903 L 82.023125 194.64278 L 83.94375 204.24588 L 84.90406 210.96806 L 86.824684 215.76962 L 87.784996 219.61086 L 88.74531 221.53148 L 88.74531 223.4521 L 89.70562 224.41241 L 90.665924 225.37273 L 91.626236 225.37273 L 92.58655 225.37273 L 92.58655 224.41241 L 92.58655 222.49179 L 94.50717 219.61086 L 95.46748 214.80931 L 98.34842 208.08713 L 102.18966 197.52371 L 106.03091 185.99997 L 110.83246 172.55562 L 115.63402 159.11127 L 120.43557 138.94473 L 125.23713 123.579765 L 130.03868 109.175095 L 133.87993 98.61167 L 136.76086 88.048256 L 139.6418 80.36577 L 141.56242 75.56421 L 143.48303 73.643585 L 144.44336 72.68327 L 144.44336 73.643585 L 145.40367 73.643585 L 145.40367 75.56421" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

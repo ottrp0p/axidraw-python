@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(-0.34906978865732063, 0) scale(1 1) translate(-0.1163554293259576, 0) scale(1 1) translate(0.1163554293259576, 0) scale(1 1) translate(0.34906978865732075, 0) scale(1 1) translate(0.5817946504483253, 0) scale(1 1) translate(0.814537017743164, 0) scale(1 1) translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000) skewX(-0.777778) skewX(-0.555556) skewX(-0.333333) skewX(-0.111111) skewX(0.111111) skewX(0.333333)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627852592212" transform="matrix(1.032782,0,0,1.032782,-14.899414,-13.325867)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 97.69672 141.68126 L 96.72846 139.74475 L 95.7602 138.77649 L 94.79195 138.77649 L 93.823685 137.80824 L 92.85542 136.83998 L 90.91891 136.83998 L 88.98239 136.83998 L 86.077614 136.83998 L 83.172844 137.80824 L 81.23632 138.77649 L 78.33155 140.71301 L 75.42677 144.58604 L 72.521996 149.42734 L 69.617226 155.2369 L 67.6807 161.04643 L 65.74419 169.76076 L 64.77593 179.44334 L 64.77593 189.12593 L 67.6807 195.90375 L 70.58548 202.68155 L 74.45852 208.4911 L 78.33155 212.36414 L 82.20458 215.26892 L 87.045876 216.23718 L 90.91891 216.23718 L 93.823685 215.26892 L 97.69672 214.30066 L 101.569756 212.36414 L 105.44279 209.45937 L 110.28408 204.61807 L 115.125374 198.80852 L 118.998405 192.03072 L 122.871445 185.2529 L 125.776215 176.53857 L 126.74448 167.82425 L 126.74448 160.07819 L 125.776215 153.30037 L 123.8397 147.49081 L 120.93492 143.61778 L 116.093636 140.71301 L 110.28408 139.74475 L 104.474525 140.71301 L 97.69672 142.64952 L 90.91891 144.58604 L 85.10936 146.52255 L 81.23632 149.42734" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

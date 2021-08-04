@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg width = "6in" height = "4in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <g transform="translate(-0.581794650448325, 0) scale(1 1) translate(-0.34906978865732063, 0) scale(1 1) translate(-0.1163554293259576, 0) scale(1 1) translate(0.1163554293259576, 0) scale(1 1) translate(0.34906978865732075, 0) scale(1 1) translate(0.5817946504483253, 0) scale(1 1) translate(0.814537017743164, 0) scale(1 1) translate(1.0473038956930552, 0) scale(1 1) translate(0, 0) scale(0.1 0.1)  skewX(-1.000000) skewX(-0.777778) skewX(-0.555556) skewX(-0.333333) skewX(-0.111111) skewX(0.111111) skewX(0.333333) skewX(0.555556)">
+    <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="ScribMaster"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5.0"/>
+    </filter>
+    <defs/>
+    <g xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:scribmaster="http://scribmaster.com/scribmaster" id="1627854629473" transform="matrix(1.041329,0,0,1.041329,-16.413086,-15.68722)" style="opacity:1.0">
+      <g id="1627851273342" inkscape:groupmode="layer" transform="matrix(1,0,0,1,0,0)" style="opacity:1.0">
+        <path transform="matrix(1,0,0,1,0,0)" d="M 64.73753 83.2467 L 65.697845 86.12763 L 66.65815 89.96887 L 66.65815 98.61167 L 67.61846 111.09572 L 66.65815 125.50038 L 66.65815 149.50815 L 65.697845 171.5953 L 64.73753 188.8809 L 64.73753 202.32526 L 65.697845 210.96806 L 65.697845 216.72993 L 65.697845 220.57117 L 66.65815 223.4521 L 66.65815 225.37273 L 67.61846 227.29335 L 67.61846 229.21397 L 68.57877 231.1346 L 68.57877 234.01553 L 68.57877 235.93614 L 68.57877 237.85677 L 69.539085 238.81708 L 69.539085 239.77739 L 70.4994 238.81708 L 71.45971 238.81708" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+        <path transform="matrix(1,0,0,1,0,0)" d="M 64.73753 83.2467 L 64.73753 82.286385 L 65.697845 81.32607 L 67.61846 80.36577 L 69.539085 80.36577 L 73.38033 79.40546 L 76.26126 78.445145 L 82.023125 78.445145 L 86.824684 78.445145 L 91.626236 78.445145 L 95.46748 79.40546 L 99.30872 81.32607 L 104.11028 84.20701 L 107.95153 86.12763 L 113.713394 89.96887 L 119.47526 93.81012 L 123.316505 97.65137 L 128.11806 100.532295 L 131.9593 104.37354 L 134.84024 108.21478 L 137.72118 112.05603 L 140.60211 114.936966 L 141.56242 118.778206 L 142.52274 121.65914 L 142.52274 124.54008 L 142.52274 127.421005 L 142.52274 129.34163 L 141.56242 132.22256 L 140.60211 135.10349 L 138.68149 137.02411 L 135.80055 139.90504 L 133.87993 141.82567 L 129.07837 144.7066 L 123.316505 148.54784 L 117.554634 151.42877 L 111.79277 154.30971 L 106.03091 157.19064 L 99.30872 159.11127 L 93.54686 161.9922 L 87.784996 162.95251 L 82.98344 164.87312 L 79.1422 166.79375 L 76.26126 167.75406 L 74.340645 168.71437" scribmaster:penstyle="draw" style="stroke:#000000;stroke-width:5.0;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0;fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

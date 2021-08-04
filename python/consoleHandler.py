@@ -27,11 +27,14 @@ from pathlib import Path
 
 
 from addDim import * 
+from delimSys import *
+
 import fixedLists # code for fixed lists of char/paths for project 
 import createProfile # code for accessing, modifying profiles 
 import spacingHandler # code for profile spacing load and write 
 import writeSVG # code for actually writing. 
 import writeScripts
+
 
 def introHandler():
     while True:
@@ -69,7 +72,7 @@ def taskHandler():
     masterDir = Path(__file__).parents[1]
 
     # get into Profiles 
-    profileDir = str(masterDir) + '\\Profiles' 
+    profileDir = str(masterDir) + delim + 'Profiles' 
     print("here are the current list of profiles")
     for directory in os.listdir(profileDir):
         print(directory)
