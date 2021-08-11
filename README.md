@@ -1,6 +1,6 @@
 # axidraw-python
 
-This was a short project in 2021, helping a friend develop a system that could allow for a letter bank of SVGs
+This was a short project ongoing project in 2021, helping a friend develop a system that could allow for a letter bank of SVGs
 created from a Tablet be integrated with an axidraw handwriting bot. 
 
 Two primary goals: 
